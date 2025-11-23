@@ -1,0 +1,8 @@
+streamlit
+langchain==0.3.11
+langchain-openai==0.2.12
+langchain-community==0.3.11
+langchain-chroma==0.1.4
+pymupdf==1.25.1
+jq==1.8.0
+pydantic>=1.10,<3
