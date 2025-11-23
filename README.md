@@ -28,8 +28,6 @@
 ✔ Provides a **modern Streamlit UI** with a **typing / character stream effect**  
 ✔ Fully modular — loader, retriever, generator, and UI separated into clean Python modules  
 
-This project converts a notebook into a scalable codebase suitable for real production RAG systems.
-
 ---
 
 ## 📁 Project Structure
@@ -44,4 +42,51 @@ This project converts a notebook into a scalable codebase suitable for real prod
 │
 ├── requirements.txt # All dependencies
 └── README.md # This file
+
+
+---
+
+## ✨ Features
+
+### 🔍 Contextual Chunk Generation  
+Chunks are not just split — they are enhanced by an LLM that explains:
+
+- Where the chunk fits in the document  
+- Its role (intro/methods/analysis/etc.)  
+- Why it is useful  
+
+→ This drastically improves retrieval quality.
+
+---
+
+### 📚 Multiple RAG Modes
+
+| Mode | Description |
+|------|-------------|
+| **Answer Only** | Just the generated answer |
+| **Answer + Sources** | Returns exact chunks used to answer |
+| **Answer + Citations** | Structured citations with page, title, quote |
+
+---
+
+### 🎨 Beautiful Streamlit UI
+
+- Character-by-character message streaming  
+- Chat-style interface using `st.chat_message`  
+- Sidebar for:  
+  - API key  
+  - Uploading PDFs  
+  - Rebuilding vector index  
+  - Selecting retrieval top-K  
+  - Selecting output mode  
+
+---
+
+## 🛠️ Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
 
