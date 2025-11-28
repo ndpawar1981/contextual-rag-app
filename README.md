@@ -28,7 +28,6 @@
 ✔ Provides a **modern Streamlit UI** with a **typing / character stream effect**  
 ✔ Fully modular — loader, retriever, generator, and UI separated into clean Python modules  
 
-This project converts a notebook into a scalable codebase suitable for real production RAG systems.
 
 ---
 
