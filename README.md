@@ -1,5 +1,5 @@
 <h1 align="center">🧠 Contextual RAG Assistant</h1>
-
+🚀 **Live Demo:** [Try the app here](https://ndpawar81-contextual-rag-app.streamlit.app/)
 <p align="center">
   <b>A Modular, Context-Aware Retrieval Augmented Generation System Built with LangChain, ChromaDB, OpenAI & Streamlit</b>
   <br/>
